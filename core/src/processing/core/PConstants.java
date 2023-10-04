@@ -482,6 +482,10 @@ public interface PConstants {
   int TEXT  = Cursor.TEXT_CURSOR;
   int WAIT  = Cursor.WAIT_CURSOR;
 
+  // official Sound library 'playModes'
+  int SUSTAIN = 0;
+  int RESTART = 1;
+  int UNTILDONE = 2;
 
   // hints - hint values are positive for the alternate version,
   // negative of the same value returns to the normal/default state
