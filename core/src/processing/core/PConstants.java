@@ -17,7 +17,7 @@
   Lesser General Public License for more details.
 
   You should have received a copy of the GNU Lesser General
-  Public License along with this library; if not, write to the
+  Public License along with this ; if not, write to the
   Free Software Foundation, Inc., 59 Temple Place, Suite 330,
   Boston, MA  02111-1307  USA
 */
@@ -482,6 +482,9 @@ public interface PConstants {
   int TEXT  = Cursor.TEXT_CURSOR;
   int WAIT  = Cursor.WAIT_CURSOR;
 
+  // official Sound library 'playModes'
+  int SUSTAIN = 0;
+  int RESTART = 1;
 
   // hints - hint values are positive for the alternate version,
   // negative of the same value returns to the normal/default state
